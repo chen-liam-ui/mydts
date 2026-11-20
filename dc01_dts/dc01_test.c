@@ -9,7 +9,7 @@ int main()
     if (fd < 0) { perror("open"); return -1; }
     while (1) {
         if (read(fd, &pm25, sizeof(int)) == sizeof(int))
-            printf("PM2.5: %d μg/m³\n", pm25);
+            printf("P M 2.5: %d μg/m³\n", pm25);
         sleep(1); // 传感器每秒更新一次
     }
     close(fd);
