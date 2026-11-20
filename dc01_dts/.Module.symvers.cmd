@@ -1,0 +1,1 @@
+cmd_/home/liam/mydts/dc01_dts/Module.symvers := sed 's/ko$$/o/' /home/liam/mydts/dc01_dts/modules.order | scripts/mod/modpost     -o /home/liam/mydts/dc01_dts/Module.symvers -e -i Module.symvers   -T -

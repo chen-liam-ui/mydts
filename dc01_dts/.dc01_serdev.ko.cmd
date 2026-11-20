@@ -1,0 +1,1 @@
+cmd_/home/liam/mydts/dc01_dts/dc01_serdev.ko := /opt/compiler/toolchain/bin/aarch64-target-linux-gnu-ld -r -EL  -maarch64elf --build-id=sha1  -T scripts/module.lds -o /home/liam/mydts/dc01_dts/dc01_serdev.ko /home/liam/mydts/dc01_dts/dc01_serdev.o /home/liam/mydts/dc01_dts/dc01_serdev.mod.o;  true

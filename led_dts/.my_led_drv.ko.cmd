@@ -1,0 +1,1 @@
+cmd_/home/liam/mydts/led_dts/my_led_drv.ko := /opt/compiler/toolchain/bin/aarch64-target-linux-gnu-ld -r -EL  -maarch64elf --build-id=sha1  -T scripts/module.lds -o /home/liam/mydts/led_dts/my_led_drv.ko /home/liam/mydts/led_dts/my_led_drv.o /home/liam/mydts/led_dts/my_led_drv.mod.o;  true
