@@ -1,9 +1,19 @@
+# 1. C语言/驱动编译中间文件
 *.o
 *.ko
 *.mod
-*.cmd
-*.order
+*.mod.c
 *.symvers
+*.order
+*.cmd
+
+# 2. 编译生成的可执行文件 (根据你自己的测试程序名字补充)
 dc01_test
 my_led_test
 a.out
+
+# 3. VS Code 配置文件
+.vscode/
+
+# 4. 系统缓存文件
+.DS_Store
